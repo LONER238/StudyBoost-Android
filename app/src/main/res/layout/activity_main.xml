@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#EAF2FF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StudyBoost"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="#1E3A8A"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your student productivity companion"
+        android:textSize="16sp"
+        android:textColor="#334155"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/taskButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tasks"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/motivationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motivation"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings" />
+
+</LinearLayout>
